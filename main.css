@@ -1,15 +1,26 @@
 * {
+	padding: 0;
 	margin: 0;
+	border: 0;
+}
+:focus {
+	outline: none;
 }
 div {
 	text-align: center;
 	background-color: white;
-	
+	display: flex;
+}
+section {
+	width: 50%;
+	height: 200px;
+}
+p {
+	font-size: 2rem;
+	padding-top: 50px;
+
 }
 .red {
 	transition: all 1s;
 	background-color: red;
-}
-.column1 {
-	width: 50%;
 }
