@@ -4,7 +4,7 @@ const section = document.querySelector('p');
 function wrapper() {
 
   const changColor = () => {
-  	section.classList.toggle('blue');
+  	section.classList.toggle('black');
   };
 
   const loopThrough = () => {
