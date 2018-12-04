@@ -1,7 +1,15 @@
 * {
 	margin: 0;
 }
-.black {
-	background-color: red;
+div {
+	text-align: center;
+	background-color: white;
+	
+}
+.red {
 	transition: all 1s;
+	background-color: red;
+}
+.column1 {
+	width: 50%;
 }
