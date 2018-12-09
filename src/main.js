@@ -16,13 +16,6 @@ const changColor2 = () => {
   }
 };
 
-const hideColors = () => {
-  for (let i = 0; i < sectionButtons.length; i++) {
-    sectionButtons[i].classList.toggle('#stage2');
-  }
-};
-
-
 function wrapper() {
 
   const loopThrough = () => {
