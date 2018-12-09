@@ -33,7 +33,6 @@ function wrapper() {
       setTimeout(function(){
         colors.classList.add('hide');
         numbers.classList.remove('hide');
-        numbers.classList.add('show');
       }, thisButtonLength * 1000);
     };
   loopThrough();
