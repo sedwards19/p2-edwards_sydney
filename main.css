@@ -28,3 +28,9 @@ p {
 	transition: all 1s;
 	background-color: blue;
 }
+.hide {
+	display: none;
+}
+.show {
+	display: flex;
+}
