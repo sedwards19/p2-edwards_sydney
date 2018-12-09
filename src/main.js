@@ -1,16 +1,27 @@
 //Ask users to choose color & 
 const sectionButtons = document.querySelectorAll('section');
-const section = document.getElementsByTagName('p');
+const section = document.querySelector('p');
 
 const firstFunctionIndexNumbers = [0,1,4,5,8,9,12,13,16,17,20,21,,24,25];
 
 const changColor = () => {
-  section.classList.toggle('red'); //replace line with loop
+  for (let i = 0; i < sectionButtons.length; i++) {
+    sectionButtons[i].classList.toggle('red');
+  }
 };
 
 const changColor2 = () => {
-  section.classList.toggle('blue'); //replace line with loop
+  for (let i = 0; i < sectionButtons.length; i++) {
+    sectionButtons[i].classList.toggle('blue');
+  }
 };
+
+const hideColors = () => {
+  for (let i = 0; i < sectionButtons.length; i++) {
+    sectionButtons[i].classList.toggle('#stage2');
+  }
+};
+
 
 function wrapper() {
 
@@ -27,15 +38,15 @@ function wrapper() {
         }
       }, i *500);
     }
-
+    
   };
   loopThrough();
-
-
 };
 
 for (let i = 0; i < sectionButtons.length; i++) {
 	sectionButtons[i].addEventListener('click', wrapper);
 };
+
+
 
 
