@@ -24,3 +24,7 @@ p {
 	transition: all 1s;
 	background-color: red;
 }
+.blue {
+	transition: all 1s;
+	background-color: blue;
+}
