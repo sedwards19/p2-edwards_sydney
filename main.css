@@ -8,20 +8,31 @@
 }
 article {
 	text-align: center;
-	background-color: white;
+	background-color: #96D7CA;
 	display: flex;
 }
 div {
 	width: 50%;
-	height: 200px;
+	height: auto;
 }
 p {
 	font-size: 2rem;
 	padding-top: 50px;
-
+	padding-bottom: 50px;
+	color: #FF394E;
+	font-family: 'Rock Salt', cursive;
+}
+.green {
+	color: #398077;
+}
+.pink {
+	color: #FF63A5;
+}
+.white {
+	color: white;
 }
 .transition {
-	background-color: #f6f6f6;
+	background-color: #F5EADF;
 	transition: all linear;
 }
 .hide {
@@ -30,8 +41,14 @@ p {
 .show {
 	display: flex;
 }
-
-.fortune-show {
-    transition: all 2s;
-    display: inline;
+#fortune-wrapper {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	background-color: #F5EADF;
+	color: #398077;}
+#changefont {
+	font-family: 'Raleway', sans-serif;
 }
+
