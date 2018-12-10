@@ -6,12 +6,12 @@
 :focus {
 	outline: none;
 }
-div {
+article {
 	text-align: center;
 	background-color: white;
 	display: flex;
 }
-section {
+div {
 	width: 50%;
 	height: 200px;
 }
@@ -20,17 +20,18 @@ p {
 	padding-top: 50px;
 
 }
-.red {
-	transition: all 1s;
-	background-color: red;
-}
-.blue {
-	transition: all 1s;
-	background-color: blue;
+.transition {
+	background-color: #f6f6f6;
+	transition: all linear;
 }
 .hide {
 	display: none;
 }
 .show {
 	display: flex;
+}
+
+.fortune-show {
+    transition: all 2s;
+    display: inline;
 }
