@@ -18,7 +18,7 @@ const yourFortunePlaceholder = document.querySelector('#fortune-wrapper p span')
 //Choose a color and loop through number of time that name of the color is long
 function wrapper() {
 
-  const flashWhite  = () => {
+  const flash  = () => {
       article.classList.toggle('transition');
     };
 
@@ -28,7 +28,7 @@ function wrapper() {
 
     for (let i = 0; i < thisButtonLength * 2; i++) {
       setTimeout(function() {
-      flashWhite(); 
+      flash(); 
       }, i * 500); 
       }
        
@@ -48,7 +48,7 @@ for (let i = 0; i < color.length; i++) {
 //Choose a number and loop through number of times as number picked
 function wrapper2() {
 
-  const flashWhite2  = () => {
+  const flash2  = () => {
         article2.classList.toggle('transition');
     };
    
@@ -58,7 +58,7 @@ function wrapper2() {
 
     for (let i = 0; i < numberValue * 2; i++) {
         setTimeout(function(){ 
-        flashWhite2(); 
+        flash2(); 
         }, i * 500); 
         }
 
@@ -79,7 +79,7 @@ for (let i = 0; i < number2.length; i++) {
 //Choose a number and display the fortune
 function wrapper3 () {
     
-    const flashWhite3  = () => {
+    const flash3  = () => {
         article3.classList.toggle('transition');
     };
    
@@ -88,7 +88,7 @@ function wrapper3 () {
         let numberValue = Number(thisNumber);
         for (let i = 0; i < numberValue * 2; i++) {
             setTimeout(function(){ 
-            flashWhite3(); 
+            flash3(); 
             }, i * 500); 
             }
             setTimeout(function(){
